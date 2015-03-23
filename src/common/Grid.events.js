@@ -957,7 +957,10 @@ function compareSegs(seg1, seg2) {
 		(seg1.event.title || '').localeCompare(seg2.event.title); // tie? alphabetically by title
 }
 
-fc.compareSegs = compareSegs; // export
+// check if is already defined - can be overitten by user
+if (typeof (fc.compareSegs) != typeof (Function)) {
+    fc.compareSegs = compareSegs;
+}
 
 
 /* External-Dragging-Element Data

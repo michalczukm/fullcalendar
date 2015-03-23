@@ -271,6 +271,11 @@ function Calendar_constructor(element, overrides) {
 		localeData._week = _week;
 	}
 
+	// segments compartion override
+	if (typeof(options.compareSegs) === typeof(Function)){
+		fc.compareSegs = options.compareSegs;
+	}
+
 	// assign a normalized value, to be used by our .week() moment extension
 	localeData._fullCalendar_weekCalc = (function(weekCalc) {
 		if (typeof weekCalc === 'function') {

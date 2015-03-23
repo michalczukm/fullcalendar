@@ -1,16 +1,9 @@
-# FullCalendar
+#FullCalendar fork based on [FullCalendar v2.3.1](http://fullcalendar.io/)#
+repository: [source](https://github.com/michalczukm/fullcalendar/tree/feature/segments-compartion-function-as-option)
 
-A full-sized drag & drop event calendar (jQuery plugin).
+#FullCalendar copyrights:#
+FullCalendar v2.3.1
 
-- [Project website and demos](http://arshaw.com/fullcalendar/)
-- [Documentation](http://arshaw.com/fullcalendar/docs/)
-- [Support](http://arshaw.com/fullcalendar/support/)
-- [Changelog](changelog.md)
-- [License](license.txt)
+Docs & License: [http://fullcalendar.io/](http://fullcalendar.io/)
 
-For contributors:
-
-- [Ways to contribute](http://arshaw.com/fullcalendar/wiki/Contributing/)
-- [General coding guidelines](https://github.com/arshaw/fullcalendar/wiki/Contributing-Code)
-- [Contributing features](https://github.com/arshaw/fullcalendar/wiki/Contributing-Features)
-- [Contributing bugfixes](https://github.com/arshaw/fullcalendar/wiki/Contributing-Bugfixes)
+(c) 2015 Adam Shaw

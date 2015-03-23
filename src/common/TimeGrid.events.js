@@ -244,7 +244,7 @@ function placeSlotSegs(segs) {
 	var level0;
 	var i;
 
-	segs.sort(fc.compareSegs); // order by date
+	segs.sort(compareSegs); // order by date
 	levels = buildSlotSegLevels(segs);
 	computeForwardSlotSegs(levels);
 

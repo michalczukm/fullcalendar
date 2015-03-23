@@ -272,8 +272,11 @@ function Calendar_constructor(element, overrides) {
 	}
 
 	// segments compartion override
-	if (typeof(options.compareSegs) === typeof(Function)){
-		fc.compareSegs = options.compareSegs;
+	if (typeof(options.compareSegmentsFunction) === typeof(Function)) {
+		fc.compareSegs = options.compareSegmentsFunction;
+        if (typeof (compareSegs) === typeof(Function)) {
+            compareSegs = options.compareSegmentsFunction;
+        }
 	}
 
 	// assign a normalized value, to be used by our .week() moment extension
